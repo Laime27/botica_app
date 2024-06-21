@@ -57,9 +57,17 @@ flutter:
   uses-material-design: true
   assets:
     - assets/logo.jpg
+    - assets/product9.jpg
+    - assets/product2.jpg
+    - assets/product3.jpg
+    - assets/product4.jpg
+    - assets/product5.jpg
+    - assets/product6.jpg
+    - assets/product7.jpg
+    - assets/product8.jpg
+    - assets/product1.jpg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
