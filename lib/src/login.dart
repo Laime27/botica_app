@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:email_validator/email_validator.dart';
 import 'package:http/http.dart';
 import 'registro.dart'; 
-import 'principal.dart';
+import 'Principal.dart';
 
 class Login extends StatefulWidget {
   @override
@@ -28,7 +28,7 @@ class _LoginState extends State<Login> {
     if(response.statusCode == 200){
      
     Navigator.pushAndRemoveUntil(
-        context,MaterialPageRoute(builder: (context) => MyApp()), 
+        context,MaterialPageRoute(builder: (context) => Principal()), 
        (Route<dynamic> route) => false,
       );
       
